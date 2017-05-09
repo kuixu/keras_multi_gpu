@@ -15,7 +15,7 @@ model = to_multi_gpu(model,n_gpus=4)
 
 # Example
 
-Test on 4 K80 GPU with:
+Test on 4 K80 GPUs with:
 ```
 model = to_multi_gpu(model,n_gpus=4) 
 ```
