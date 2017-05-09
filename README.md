@@ -3,7 +3,7 @@ Multi-GPU training for Keras
 
 # Usage
 
-```
+```python
 from multi_gpu import to_multi_gpu
 
 # Add the one line code before model.compile()
