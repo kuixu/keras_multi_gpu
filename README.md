@@ -63,7 +63,7 @@ model = to_multi_gpu(model,n_gpus=1)
 ```
 
 ```
-$ python mnist_cnn.py
+$ CUDA_VISIBLE_DEVICES=0 python mnist_cnn.py
 
 60000/60000 [==============================] - 15s - loss: 0.3335 - acc: 0.8989 - val_loss: 0.0744 - val_acc: 0.9765
 Epoch 2/12
