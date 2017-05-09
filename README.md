@@ -52,7 +52,7 @@ user    4m58.328s
 sys     0m57.112s
 ```
 
-Test on one K80 GPU
+Test on one K80 GPU with:
 
 ```
 model = to_multi_gpu(model,n_gpus=1) 
