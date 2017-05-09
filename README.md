@@ -15,12 +15,17 @@ model = to_multi_gpu(model,n_gpus=4)
 
 # Example
 
+Environment:
+  - Keras-2.0.4
+  - Tensorflow-1.1.0
+  - Ubuntu 14.04
+  - K80
+
 Test on 4 K80 GPUs with:
 ```
 model = to_multi_gpu(model,n_gpus=4) 
 ```
-Keras-2.0.4
-Tensorflow-1.1.0
+
 
 ```
 $ CUDA_VISIBLE_DEVICES=0,1,2,3 python mnist_cnn.py
