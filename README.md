@@ -10,6 +10,8 @@ from multi_gpu import to_multi_gpu
 model = to_multi_gpu(model,n_gpus=4) 
 ```
 
+<img src="./keras_multi_gpu.png" width = "560" height = "380" alt="keras_multi_gpu" align="center" />
+
 
 # Example
 
