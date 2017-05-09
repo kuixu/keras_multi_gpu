@@ -11,6 +11,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
+#============ Multi-GPU ==========
 from multi_gpu import to_multi_gpu
 
 batch_size = 128
