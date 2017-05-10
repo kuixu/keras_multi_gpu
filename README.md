@@ -22,7 +22,7 @@ Environment:
   - K80
 
 Test on 4 K80 GPUs with:
-```
+```python
 model = to_multi_gpu(model,n_gpus=4) 
 ```
 
@@ -63,7 +63,7 @@ sys     0m57.112s
 
 Test on one K80 GPU with:
 
-```
+```python
 model = to_multi_gpu(model,n_gpus=1) 
 ```
 
