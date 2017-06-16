@@ -23,7 +23,7 @@ Environment:
 
 Test on 2 1080Ti GPUs with:
 ```python
-model = to_multi_gpu(model,n_gpus=4) 
+model = to_multi_gpu(model,n_gpus=2) 
 ```
 
 
